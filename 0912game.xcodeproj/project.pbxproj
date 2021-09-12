@@ -10,15 +10,48 @@
 		D920E9E526EE2372005E4795 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D920E9E426EE2372005E4795 /* main.cpp */; };
 		D920E9EE26EE238A005E4795 /* libbangtal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D920E9ED26EE238A005E4795 /* libbangtal.dylib */; };
 		D920E9EF26EE238A005E4795 /* libbangtal.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D920E9ED26EE238A005E4795 /* libbangtal.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D920EA0B26EE3020005E4795 /* 문-왼쪽-열림.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0026EE3020005E4795 /* 문-왼쪽-열림.png */; };
+		D920EA0C26EE3020005E4795 /* 스위치.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0126EE3020005E4795 /* 스위치.png */; };
+		D920EA0D26EE3020005E4795 /* 키패드.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0226EE3020005E4795 /* 키패드.png */; };
+		D920EA0E26EE3020005E4795 /* 배경-1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0326EE3020005E4795 /* 배경-1.png */; };
+		D920EA0F26EE3020005E4795 /* 화분.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0426EE3020005E4795 /* 화분.png */; };
+		D920EA1026EE3020005E4795 /* 문-왼쪽-닫힘.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0526EE3020005E4795 /* 문-왼쪽-닫힘.png */; };
+		D920EA1126EE3020005E4795 /* 문-오른쪽-열림.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0626EE3020005E4795 /* 문-오른쪽-열림.png */; };
+		D920EA1226EE3020005E4795 /* 암호.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0726EE3020005E4795 /* 암호.png */; };
+		D920EA1326EE3020005E4795 /* 열쇠.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0826EE3020005E4795 /* 열쇠.png */; };
+		D920EA1426EE3020005E4795 /* 문-오른쪽-닫힘.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0926EE3020005E4795 /* 문-오른쪽-닫힘.png */; };
+		D920EA1526EE3020005E4795 /* 배경-2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = D920EA0A26EE3020005E4795 /* 배경-2.png */; };
+		D920EA1626EE3025005E4795 /* 문-오른쪽-닫힘.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0926EE3020005E4795 /* 문-오른쪽-닫힘.png */; };
+		D920EA1726EE3025005E4795 /* 문-오른쪽-열림.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0626EE3020005E4795 /* 문-오른쪽-열림.png */; };
+		D920EA1826EE3025005E4795 /* 문-왼쪽-닫힘.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0526EE3020005E4795 /* 문-왼쪽-닫힘.png */; };
+		D920EA1926EE3025005E4795 /* 문-왼쪽-열림.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0026EE3020005E4795 /* 문-왼쪽-열림.png */; };
+		D920EA1A26EE3025005E4795 /* 배경-1.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0326EE3020005E4795 /* 배경-1.png */; };
+		D920EA1B26EE3025005E4795 /* 배경-2.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0A26EE3020005E4795 /* 배경-2.png */; };
+		D920EA1C26EE3025005E4795 /* 스위치.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0126EE3020005E4795 /* 스위치.png */; };
+		D920EA1D26EE3025005E4795 /* 암호.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0726EE3020005E4795 /* 암호.png */; };
+		D920EA1E26EE3025005E4795 /* 열쇠.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0826EE3020005E4795 /* 열쇠.png */; };
+		D920EA1F26EE3025005E4795 /* 키패드.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0226EE3020005E4795 /* 키패드.png */; };
+		D920EA2026EE3025005E4795 /* 화분.png in Sources */ = {isa = PBXBuildFile; fileRef = D920EA0426EE3020005E4795 /* 화분.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D920E9DF26EE2372005E4795 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 8;
+			dstPath = Users/lineash/Desktop/0912game;
+			dstSubfolderSpec = 7;
 			files = (
+				D920EA0B26EE3020005E4795 /* 문-왼쪽-열림.png in CopyFiles */,
+				D920EA0C26EE3020005E4795 /* 스위치.png in CopyFiles */,
+				D920EA0D26EE3020005E4795 /* 키패드.png in CopyFiles */,
+				D920EA0E26EE3020005E4795 /* 배경-1.png in CopyFiles */,
+				D920EA0F26EE3020005E4795 /* 화분.png in CopyFiles */,
+				D920EA1026EE3020005E4795 /* 문-왼쪽-닫힘.png in CopyFiles */,
+				D920EA1126EE3020005E4795 /* 문-오른쪽-열림.png in CopyFiles */,
+				D920EA1226EE3020005E4795 /* 암호.png in CopyFiles */,
+				D920EA1326EE3020005E4795 /* 열쇠.png in CopyFiles */,
+				D920EA1426EE3020005E4795 /* 문-오른쪽-닫힘.png in CopyFiles */,
+				D920EA1526EE3020005E4795 /* 배경-2.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -39,6 +72,19 @@
 		D920E9E126EE2372005E4795 /* 0912game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 0912game; sourceTree = BUILT_PRODUCTS_DIR; };
 		D920E9E426EE2372005E4795 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D920E9ED26EE238A005E4795 /* libbangtal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbangtal.dylib; path = ../../../../Library/Frameworks/Bangtal/lib/Release/libbangtal.dylib; sourceTree = "<group>"; };
+		D920E9F126EE29DC005E4795 /* room1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room1.jpeg; sourceTree = "<group>"; };
+		D920E9F226EE29DC005E4795 /* room2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room2.jpeg; sourceTree = "<group>"; };
+		D920EA0026EE3020005E4795 /* 문-왼쪽-열림.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "문-왼쪽-열림.png"; sourceTree = "<group>"; };
+		D920EA0126EE3020005E4795 /* 스위치.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스위치.png"; sourceTree = "<group>"; };
+		D920EA0226EE3020005E4795 /* 키패드.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "키패드.png"; sourceTree = "<group>"; };
+		D920EA0326EE3020005E4795 /* 배경-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "배경-1.png"; sourceTree = "<group>"; };
+		D920EA0426EE3020005E4795 /* 화분.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "화분.png"; sourceTree = "<group>"; };
+		D920EA0526EE3020005E4795 /* 문-왼쪽-닫힘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "문-왼쪽-닫힘.png"; sourceTree = "<group>"; };
+		D920EA0626EE3020005E4795 /* 문-오른쪽-열림.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "문-오른쪽-열림.png"; sourceTree = "<group>"; };
+		D920EA0726EE3020005E4795 /* 암호.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "암호.png"; sourceTree = "<group>"; };
+		D920EA0826EE3020005E4795 /* 열쇠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "열쇠.png"; sourceTree = "<group>"; };
+		D920EA0926EE3020005E4795 /* 문-오른쪽-닫힘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "문-오른쪽-닫힘.png"; sourceTree = "<group>"; };
+		D920EA0A26EE3020005E4795 /* 배경-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "배경-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,17 @@
 		D920E9D826EE2372005E4795 = {
 			isa = PBXGroup;
 			children = (
+				D920EA0926EE3020005E4795 /* 문-오른쪽-닫힘.png */,
+				D920EA0626EE3020005E4795 /* 문-오른쪽-열림.png */,
+				D920EA0526EE3020005E4795 /* 문-왼쪽-닫힘.png */,
+				D920EA0026EE3020005E4795 /* 문-왼쪽-열림.png */,
+				D920EA0326EE3020005E4795 /* 배경-1.png */,
+				D920EA0A26EE3020005E4795 /* 배경-2.png */,
+				D920EA0126EE3020005E4795 /* 스위치.png */,
+				D920EA0726EE3020005E4795 /* 암호.png */,
+				D920EA0826EE3020005E4795 /* 열쇠.png */,
+				D920EA0226EE3020005E4795 /* 키패드.png */,
+				D920EA0426EE3020005E4795 /* 화분.png */,
 				D920E9E326EE2372005E4795 /* 0912game */,
 				D920E9E226EE2372005E4795 /* Products */,
 				D920E9EC26EE238A005E4795 /* Frameworks */,
@@ -73,6 +130,8 @@
 		D920E9E326EE2372005E4795 /* 0912game */ = {
 			isa = PBXGroup;
 			children = (
+				D920E9F126EE29DC005E4795 /* room1.jpeg */,
+				D920E9F226EE29DC005E4795 /* room2.jpeg */,
 				D920E9E426EE2372005E4795 /* main.cpp */,
 			);
 			path = 0912game;
@@ -143,6 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D920EA1626EE3025005E4795 /* 문-오른쪽-닫힘.png in Sources */,
+				D920EA1726EE3025005E4795 /* 문-오른쪽-열림.png in Sources */,
+				D920EA1826EE3025005E4795 /* 문-왼쪽-닫힘.png in Sources */,
+				D920EA1926EE3025005E4795 /* 문-왼쪽-열림.png in Sources */,
+				D920EA1A26EE3025005E4795 /* 배경-1.png in Sources */,
+				D920EA1B26EE3025005E4795 /* 배경-2.png in Sources */,
+				D920EA1C26EE3025005E4795 /* 스위치.png in Sources */,
+				D920EA1D26EE3025005E4795 /* 암호.png in Sources */,
+				D920EA1E26EE3025005E4795 /* 열쇠.png in Sources */,
+				D920EA1F26EE3025005E4795 /* 키패드.png in Sources */,
+				D920EA2026EE3025005E4795 /* 화분.png in Sources */,
 				D920E9E526EE2372005E4795 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
